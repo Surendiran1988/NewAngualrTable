@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 
 export interface PeriodicElement {
-  name: string;
   position: number;
-  weight: number;
-  symbol: string;
+  time: string;
+  type: number;
+  source: string;
+  destination: string;
+  summary: string;
 }
 
 const ELEMENT_DATA: PeriodicElement[] = [
